@@ -1,9 +1,9 @@
 const cacheName = "AvivXR-NICETrivia-1.0";
 const contentToCache = [
-    "Build/Builds.loader.js",
-    "Build/Builds.framework.js",
-    "Build/Builds.data",
-    "Build/Builds.wasm",
+    "Build/nice.loader.js",
+    "Build/nice.framework.js",
+    "Build/nice.data",
+    "Build/nice.wasm",
     "TemplateData/style.css"
 
 ];
