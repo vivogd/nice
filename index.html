@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | NICETrivia</title>
+    <title>Unity Web Player | NICETrivia</title>
   </head>
   <body style="text-align: center; padding: 0; border: 0; margin: 0;">
-    <canvas id="unity-canvas" width=1280 height=800 tabindex="-1" style="width: 1280px; height: 800px; background: #231F20"></canvas>
+    <canvas id="unity-canvas" width=1920 height=1080 tabindex="-1" style="width: 1920px; height: 1080px; background: #231F20"></canvas>
     <script src="Build/nice.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
@@ -25,6 +25,7 @@
       }
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
+        arguments: [],
         dataUrl: "Build/nice.data",
         frameworkUrl: "Build/nice.framework.js",
         codeUrl: "Build/nice.wasm",
